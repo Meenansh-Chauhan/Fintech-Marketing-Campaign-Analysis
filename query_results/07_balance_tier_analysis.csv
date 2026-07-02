@@ -1,0 +1,5 @@
+"balance_tier","total_customers","converted_customers","conversion_rate_percentage","performance_vs_baseline"
+"High Balance","2847","441","15.49","Above Baseline"
+"Medium Balance","11795","1812","15.36","Above Baseline"
+"Low Balance","26803","2826","10.54","Below Baseline"
+"Negative Balance","3766","210","5.58","Below Baseline"

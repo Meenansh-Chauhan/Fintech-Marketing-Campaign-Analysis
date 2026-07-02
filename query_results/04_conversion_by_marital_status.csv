@@ -1,0 +1,4 @@
+"marital","total_customers","converted_customers","conversion_rate_percentage","performance_vs_baseline"
+"single","12790","1912","14.95","Above Baseline"
+"divorced","5207","622","11.95","Above Baseline"
+"married","27214","2755","10.12","Below Baseline"
