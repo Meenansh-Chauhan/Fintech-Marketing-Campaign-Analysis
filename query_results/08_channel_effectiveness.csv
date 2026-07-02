@@ -1,0 +1,4 @@
+"communication_channel","total_customers","converted_customers","conversion_rate_percentage","performance_vs_baseline"
+"cellular","29285","4369","14.92","Above Baseline"
+"telephone","2906","390","13.42","Above Baseline"
+"unknown","13020","530","4.07","Below Baseline"

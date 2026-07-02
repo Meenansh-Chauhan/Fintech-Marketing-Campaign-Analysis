@@ -1,0 +1,4 @@
+"duration_category","total_customers","converted_customers","average_call_duration_seconds","conversion_rate_percentage","performance_vs_baseline"
+"Short Call","13908","204","71.51","1.47","Below Baseline"
+"Medium Call","19029","1627","194.43","8.55","Below Baseline"
+"Long Call","12274","3458","568.47","28.17","Above Baseline"

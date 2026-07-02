@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Python Build Files
+build/
+dist/
+*.egg-info/

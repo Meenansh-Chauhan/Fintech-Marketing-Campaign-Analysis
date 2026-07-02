@@ -1,0 +1,5 @@
+"poutcome","total_customers","converted_customers","conversion_rate_percentage","share_of_total_conversions","performance_vs_baseline"
+"success","1511","978","64.73","18.49","Above Baseline"
+"other","1840","307","16.68","5.8","Above Baseline"
+"failure","4901","618","12.61","11.68","Above Baseline"
+"unknown","36959","3386","9.16","64.02","Below Baseline"
