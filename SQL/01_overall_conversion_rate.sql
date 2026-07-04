@@ -39,11 +39,18 @@ SELECT
 
 FROM bank_marketing_clean;
 
-
 /*
 ==========================================================
 Business Insight:
 
-(To be completed after reviewing the query output.)
+• The campaign reached a total of 45,211 customers.
+
+• Out of these, 5,289 customers subscribed to the term
+  deposit, while 39,922 customers did not convert.
+
+• The overall campaign conversion rate was 11.70%,
+  establishing the baseline performance benchmark for
+  evaluating customer segments and campaign strategies.
+
 ==========================================================
 */

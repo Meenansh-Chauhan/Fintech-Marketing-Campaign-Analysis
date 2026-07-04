@@ -103,6 +103,16 @@ SELECT
     CASE
         WHEN pdays = -1 THEN 'Never Contacted'
         ELSE 'Previously Contacted'
-    END AS previous_contact
+    END AS previous_contact,
+
+    /*----------------------------------------------------
+    Call Duration Category
+    ----------------------------------------------------*/
+
+    CASE
+        WHEN duration < 120 THEN 'Short Call'
+        WHEN duration BETWEEN 120 AND 300 THEN 'Medium Call'
+        ELSE 'Long Call'
+    END AS duration_category
 
 FROM bank_marketing;
