@@ -1,6 +1,23 @@
 # Fintech Marketing Campaign Analysis
 
-A portfolio project demonstrating SQL-driven marketing analytics using the UCI Bank Marketing dataset. The project simulates a real-world campaign performance analysis performed by Data Analysts and Business Analysts in fintech organizations.
+An end-to-end Business Analytics project demonstrating how SQL, AWS, Python, and Power BI can be used to evaluate a real-world bank marketing campaign and generate actionable business recommendations.
+
+The project simulates a marketing analytics workflow commonly performed by Data Analysts and Business Analysts in financial services organizations such as American Express, Visa, Mastercard, and leading fintech companies.
+
+---
+
+## Project Status
+
+**Current Release:** Version 1.0 ✅
+
+### Completed
+
+- AWS S3 Data Lake
+- AWS Athena SQL Analysis
+- Python Exploratory Data Analysis
+- Power BI Executive Dashboard
+- Business Recommendations
+- GitHub Documentation
 
 ---
 
@@ -35,6 +52,20 @@ The project combines SQL, cloud technologies, Python, and Power BI into a comple
 | Visualization | Matplotlib, Seaborn |
 | Dashboard | Power BI |
 | Version Control | Git & GitHub |
+
+---
+
+## Business Problem
+
+Financial institutions invest significant resources in marketing campaigns, yet only a small percentage of customers respond positively.
+
+The objective of this project is to identify:
+
+- Which customer segments are most likely to convert
+- Which campaign strategies produce the highest conversion rates
+- Which operational changes can improve future campaign performance
+
+The final outcome is a set of data-driven recommendations supported by SQL analysis, Python exploration, and interactive Power BI dashboards.
 
 ---
 
@@ -116,29 +147,34 @@ Python was used to perform supporting exploratory analysis, including:
 
 ## Dashboard
 
-The Power BI dashboard contains three pages:
+## Power BI Dashboard
 
-### Executive Summary
+The dashboard is designed for executive-level decision making and consists of three interactive pages.
 
-- Overall conversion rate
-- Campaign KPIs
-- Customer overview
+### Page 1 — Executive Summary
 
-### Customer Segmentation
+Provides a high-level overview of campaign performance through key performance indicators, conversion trends, communication channel analysis, and campaign volume.
 
-- Age
-- Occupation
-- Education
-- Balance
-- Marital status
+### Page 2 — Customer Segment Performance
 
-### Campaign Optimization
+Identifies high-performing customer groups by analyzing conversion rates across age bands, occupation, education level, marital status, and account balance tiers.
 
-- Contact frequency
-- Communication channel
-- Call duration
-- Previous campaign performance
-- Monthly trends
+### Page 3 — Campaign Optimization
+
+Evaluates campaign execution by examining contact frequency, call duration, previous campaign outcomes, and seasonal trends to support strategic marketing decisions.
+
+---
+
+## Project Deliverables
+
+- AWS S3 cloud data storage
+- AWS Athena SQL environment
+- 13 documented SQL business queries
+- Modular Python analysis package
+- Professional Jupyter Notebook
+- Three-page Power BI dashboard
+- Executive business recommendations
+- Complete GitHub documentation
 
 ---
 
@@ -195,3 +231,5 @@ The next version of this project will extend the current descriptive analytics w
 **Meenansh Chauhan**
 
 Business Analytics • Data Analytics • SQL • Python • Power BI • AWS
+
+If you found this project interesting, feel free to explore the repository, review the SQL queries, and interact with the Power BI dashboard.
