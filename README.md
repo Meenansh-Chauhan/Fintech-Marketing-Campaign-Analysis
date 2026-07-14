@@ -184,8 +184,6 @@ Before finalizing insights, outputs were validated at each stage of the pipeline
 
 ---
 
-## Dashboard
-
 ## Power BI Dashboard
 
 The dashboard is designed for executive-level decision making and consists of three interactive pages.
