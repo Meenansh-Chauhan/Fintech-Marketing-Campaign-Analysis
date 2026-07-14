@@ -29,6 +29,27 @@ The project combines SQL, cloud technologies, Python, and Power BI into a comple
 
 ---
 
+## Business Requirements & Scope
+
+**Business Ask:** Marketing and product stakeholders needed visibility into which customer segments and campaign tactics were driving (or limiting) term deposit conversions, in order to prioritize future campaign spend and contact strategy.
+
+**Requirements identified:**
+- Define a measurable conversion baseline (KPI: overall conversion rate)
+- Segment-level conversion visibility (age, occupation, education, marital status, balance tier)
+- Campaign execution factors affecting conversion (contact frequency, channel, call duration, timing)
+- Historical campaign outcome as a predictive input for future targeting
+
+**KPIs tracked:**
+- Overall conversion rate
+- Segment-wise conversion rate
+- Contact-attempt-to-conversion ratio
+- Channel effectiveness rate
+- Call duration vs. conversion relationship
+
+This scope was translated into 13 documented SQL business queries (see SQL Analysis) and a three-page Power BI dashboard structured around Executive Summary, Segment Performance, and Campaign Optimization — mapping each requirement to a corresponding analytical deliverable.
+
+---
+
 ## Dataset
 
 **Source:** UCI Machine Learning Repository – Bank Marketing Dataset
@@ -72,6 +93,10 @@ The final outcome is a set of data-driven recommendations supported by SQL analy
 ## Project Architecture
 
 ```
+Business Requirement
+(Define KPIs & conversion drivers)
+     │
+     ▼
 Raw CSV
      │
      ▼
@@ -83,13 +108,16 @@ Raw CSV
      │
      ▼
 Python Analysis
-(Jupyter Notebook)
+(Validation + EDA)
      │
      ▼
 Power BI Dashboard
      │
      ▼
 Business Recommendations
+     │
+     ▼
+Stakeholder Review & Validation
 ```
 
 ---
@@ -145,6 +173,17 @@ Python was used to perform supporting exploratory analysis, including:
 
 ---
 
+## Data Validation & Quality Checks
+
+Before finalizing insights, outputs were validated at each stage of the pipeline:
+
+- Verified AWS Athena query outputs against raw dataset aggregates to confirm SQL logic accuracy
+- Cross-checked Python EDA statistical summaries against Power BI visual aggregations for consistency
+- Reviewed edge cases (e.g., "unknown" communication channel, zero-duration calls) to confirm they were handled correctly rather than skewing conversion metrics
+- Confirmed dashboard KPIs reconciled with underlying SQL results before finalizing recommendations
+
+---
+
 ## Dashboard
 
 ## Power BI Dashboard
@@ -154,14 +193,17 @@ The dashboard is designed for executive-level decision making and consists of th
 ### Page 1 — Executive Summary
 
 Provides a high-level overview of campaign performance through key performance indicators, conversion trends, communication channel analysis, and campaign volume.
+location: ![Executive Summary](visuals/dashboard_exports/page_1.png)
 
 ### Page 2 — Customer Segment Performance
 
 Identifies high-performing customer groups by analyzing conversion rates across age bands, occupation, education level, marital status, and account balance tiers.
+location: ![Customer Segment Performance](visuals/dashboard_exports/page_2.png)
 
 ### Page 3 — Campaign Optimization
 
 Evaluates campaign execution by examining contact frequency, call duration, previous campaign outcomes, and seasonal trends to support strategic marketing decisions.
+location: ![Campaign Optimization](visuals/dashboard_exports/page_3.png)
 
 ---
 
